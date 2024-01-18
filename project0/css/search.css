@@ -1,0 +1,40 @@
+html, body {
+    height: 100%;
+    min-width: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+body, input, button {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #bdc1c6;
+}
+
+body {
+    background: #202124;
+    display: block;
+}
+
+header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 6px;
+}
+
+nav {
+    display: inline-block;
+    flex-grow: 1;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.box {
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
